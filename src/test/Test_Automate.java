@@ -21,11 +21,11 @@ public class Test_Automate {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://i3lmobile.itcinfotech.com");
+		driver.get("url for timesheet");
 		driver.manage().window().maximize();
 		
 		try {
-		driver.findElement(By.id("userid")).sendKeys("33421");
+		driver.findElement(By.id("userid")).sendKeys("empid");
 		}
 		catch (Exception e) {
 			e.getMessage();
